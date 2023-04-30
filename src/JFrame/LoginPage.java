@@ -205,7 +205,7 @@ public class LoginPage extends javax.swing.JFrame {
         jLabel16.setFont(new java.awt.Font("PMingLiU-ExtB", 1, 24)); // NOI18N
         jLabel16.setForeground(new java.awt.Color(255, 51, 51));
         jLabel16.setText("Log In");
-        jPanel3.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 30, 180, -1));
+        jPanel3.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 30, 180, -1));
 
         getContentPane().add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 0, 380, 660));
 
