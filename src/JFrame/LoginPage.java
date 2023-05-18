@@ -34,7 +34,7 @@ public class LoginPage extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(this, "Please Enter the Name.");
             return false;
         }
-        if(name.equals("")){
+        if(pwd.equals("")){
             JOptionPane.showMessageDialog(this, "Please Enter the Password.");
             return false;
         }
@@ -122,7 +122,7 @@ public class LoginPage extends javax.swing.JFrame {
         jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 10, 180, 30));
 
         jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/signup-library-icon.png"))); // NOI18N
-        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 40, 730, 560));
+        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 70, 730, 560));
 
         jLabel12.setText("Version No: V1.0");
         jPanel1.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 600, 100, 30));
@@ -209,7 +209,7 @@ public class LoginPage extends javax.swing.JFrame {
 
         getContentPane().add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 0, 380, 660));
 
-        setSize(new java.awt.Dimension(1108, 661));
+        setSize(new java.awt.Dimension(1108, 792));
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
